@@ -1,0 +1,22 @@
+{
+  "name": "Remove Link by pagorn",
+  "manifest_version": 3,
+  "version": "1",
+  "description": "Remove href attribute from a tag",
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://en.wikipedia.org/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icons8-dog-16.png",
+    "32": "images/icons8-dog-32.png",
+    "48": "images/icons8-dog-48.png",
+    "128": "images/icons8-dog-100.png"
+  }
+}
